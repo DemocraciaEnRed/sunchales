@@ -81,7 +81,7 @@ app.get('/forum/:forumName',
             })
             res.status(200).json({
               totalWithOfficialReply: totalWithOfficialReply,
-              totalComments: allComments.length,
+              totalComments: allComments.length === 0 ? 1 : allComments.length,
               uniqueParticipants: uniqueParticipants.length
             })
           })
@@ -199,7 +199,7 @@ app.get('/forums',
               countOpenTopics: req.countOpenTopics,
               countClosedTopics: req.countClosedTopics,
               totalWithOfficialReply: totalWithOfficialReply,
-              totalComments: allComments.length,
+              totalComments: allComments.length === 0 ? 1 : allComments.length,
               uniqueParticipants: uniqueParticipants.length
             })
           })
