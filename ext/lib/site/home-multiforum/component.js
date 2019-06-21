@@ -89,12 +89,12 @@ class HomeMultiForum extends Component {
         <section
           className='cover jumbotron'
           style={{
-            // backgroundImage: `url('/ext/lib/site/home-multiforum/header_consulta-publica.png')`
+            backgroundImage: `url('/ext/lib/site/home-multiforum/header-photo.jpg')`
           }}>
           <div className='jumbotron_body'>
             <div className='container'>
               <img
-                src="/ext/lib/site/home-multiforum/logo_consulta-publica.svg"
+                src="/ext/lib/site/home-multiforum/logo_sunchales.svg"
                 alt="Logo"
                 width="270px"
               />
