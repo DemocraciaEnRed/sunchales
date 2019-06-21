@@ -44,6 +44,10 @@ export default class extends Component {
       })
   }
 
+  calculatePercentInTotalComments = () => {
+    return this.state.totalComments === 0 ? '0' : Math.ceil((this.state.totalWithOfficialReply/this.state.totalComments)*100)
+  }
+
   render() {
     return (
       <div className="container forum-description">
@@ -63,7 +67,7 @@ export default class extends Component {
                 {
                   this.state.isFetching ? 
                   <div className="spinning-loader"></div>
-                  : <div className="stat-value">{Math.ceil((this.state.totalWithOfficialReply/this.state.totalComments)*100)}%</div>
+                  : <div className="stat-value">{this.calculatePercentInTotalComments()}%</div>
                 }
               </div>
               <div className="col-md-4 stat-container">
