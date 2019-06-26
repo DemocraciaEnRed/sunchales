@@ -118,10 +118,13 @@ const Logo = () => {
     rel: isAbsolute ? 'noopener nofollow' : null
   }
 
+  console.log(config)
+ 
   return (
     <Element {...props}>
-      <img className='logo-desktop' src={config.logo} />
+      <div className="container-logo-img"><img className='logo-desktop' src={config.logo} />
       <img className='logo-mobile' src={config.logoMobile} />
+      </div>
     </Element>
   )
 }
