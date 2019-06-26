@@ -4,7 +4,7 @@ const t = translations.t
 
 const overrides = {
   'templates.email.greeting': 'Estimado/a, {userName}',
-  'templates.email.signature': 'Subsecretaría de Innovación Pública y Gobierno Abierto',
+  'templates.email.signature': 'Municipalidad de Sunchales',
 
   'templates.welcome-email.subject': 'Bienvenido a Sunchales Participa',
   'templates.welcome-email.body': 'Para completar su registro haga <a href=\"{validateUrl}\">click aquí.</a>',
