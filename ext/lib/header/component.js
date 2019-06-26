@@ -117,8 +117,6 @@ const Logo = () => {
     [isAbsolute ? 'href' : 'to']: config.homeLink,
     rel: isAbsolute ? 'noopener nofollow' : null
   }
-
-  console.log(config)
  
   return (
     <Element {...props}>
