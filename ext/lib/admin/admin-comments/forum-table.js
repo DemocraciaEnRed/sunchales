@@ -119,8 +119,7 @@ export default class ForumTable extends Component {
 
   render() {
     let { forum, topics, admins, comments } = this.props
-    console.log(this.state.averageCommentsPerTopic)
-    return (
+        return (
       <div className="general-stats-container">
         <h4 className="forum-subtitle">Consulta</h4>
         <h1 className="forum-title">{forum.title}</h1>
@@ -184,7 +183,7 @@ export default class ForumTable extends Component {
                 Porcentaje de comentarios atendidos
                 </td>
               <td className="bg-light text-center">
-                {Math.ceil(((this.state.totalCommentsAcrossTopics - this.state.totalWithoutOfficialReply) / this.state.totalCommentsAcrossTopics === 0 ? '1' : this.state.totalCommentsAcrossTopics) * 100)} %
+                {Math.ceil(((this.state.totalCommentsAcrossTopics - this.state.totalWithoutOfficialReply) / (this.state.totalCommentsAcrossTopics === 0 ? '1' : this.state.totalCommentsAcrossTopics))* 100)} %
                 </td>
             </tr>
             {
