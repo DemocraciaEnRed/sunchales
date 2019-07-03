@@ -88,18 +88,20 @@ class HomeMultiForum extends Component {
       <div className='ext-site-home-multiforum'>
         <section
           className='cover jumbotron'
-          style={{
-            backgroundImage: `url('/ext/lib/site/home-multiforum/header_consulta-publica.png')`
-          }}>
+          // style={{
+          //   backgroundImage: `url('/ext/lib/site/home-multiforum/header_photo2.jpg')`,
+ 
+          // }}>
+          >
           <div className='jumbotron_body'>
             <div className='container'>
               <img
-                src="/ext/lib/site/home-multiforum/logo_consulta-publica.svg"
+                src="/ext/lib/site/home-multiforum/logo-sunchales2.png"
                 alt="Logo"
                 width="270px"
               />
               <p className='lead highlight'>
-                Construyamos una Argentina más abierta, transparente y colaborativa.
+                Construyamos un mejor Sunchales para todos y todas.
               </p>
               <button
                 className='btn btn-primary'
@@ -112,45 +114,51 @@ class HomeMultiForum extends Component {
         </section>
         <div className='lead-paragraph'>
           <p>
-            <span className="skyblue">Consulta Pública</span> es un canal de diálogo y debate que permite la interacción entre el gobierno y la comunidad,
+            La plataforma <span className="skyblue">Sunchales Participa</span> es un espacio digital de dialogo e intercambio que permite informarnos, debatir
             <br />
-            promueve la participación ciudadana y ayuda a fortalecer la democracia.
+             y mejorar propuestas públicas.
           </p>
           <br />
           <p className="bold">
-            Seguí estos pasos para participar y debatir de forma efectiva y colaborativa
+            Seguí estos pasos para participar y empezar a debatir
           </p>
         </div>
         <div className='section-icons col-md-10 offset-md-1'>
           <div className='row'>
             <div className='section-icon col-md-4'>
-              <img
-                className='icon'
-                src='/ext/lib/site/home-multiforum/icono_consulta-publica-1.svg'
-                alt='Informate'
-              />
+              <div>
+                <img
+                  className='icon'
+                  src='/ext/lib/site/home-multiforum/boton-informate.jpg'
+                  alt='Informate'
+                />
+              </div>
               <div className='text'>
                 <h5>Informate</h5> sobre las consultas disponibles
               </div>
             </div>
             <div className='section-icon col-md-4'>
-             <img
-                className='icon'
-                src='/ext/lib/site/home-multiforum/icono_consulta-publica-2.svg'
-                alt='Participá'
-              />
+              <div>
+                <img
+                    className='icon'
+                    src='/ext/lib/site/home-multiforum/boton-vota.jpg'
+                    alt='Participá'
+                  />
+              </div>
               <div className='text'>
-                <h5>Participá</h5> en los ejes de las consultas
+                <h5>Votá</h5> en los ejes de las consultas
               </div>
             </div>
             <div className='section-icon col-md-4'>
-             <img
-                className='icon'
-                src='/ext/lib/site/home-multiforum/icono_consulta-publica-3.svg'
-                alt='Compartí'
-              />
+              <div>
+              <img
+                  className='icon'
+                  src='/ext/lib/site/home-multiforum/boton-participa.jpg'
+                  alt='Compartí'
+                />
+                </div>
               <div className='text'>
-                <h5>Compartí</h5> tu opinión, voto o comentario
+                <h5>Participá</h5> con tu opinión. 
               </div>
             </div>
           </div>

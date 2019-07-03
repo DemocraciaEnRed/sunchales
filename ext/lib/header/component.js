@@ -79,7 +79,7 @@ class Header extends Component {
               <Link
                 to='/ayuda/como-funciona'
                 className='header-link hidden-md-down'>
-                <span>¿Cómo participo?</span>
+                <span>¿Cómo funciona?</span>
               </Link>
             </div>
 
@@ -117,11 +117,12 @@ const Logo = () => {
     [isAbsolute ? 'href' : 'to']: config.homeLink,
     rel: isAbsolute ? 'noopener nofollow' : null
   }
-
+ 
   return (
     <Element {...props}>
-      <img className='logo-desktop' src={config.logo} />
+      <div className="container-logo-img"><img className='logo-desktop' src={config.logo} />
       <img className='logo-mobile' src={config.logoMobile} />
+      </div>
     </Element>
   )
 }

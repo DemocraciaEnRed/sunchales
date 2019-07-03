@@ -27,7 +27,7 @@ export default class Header extends Component {
     var closingAt
     if (!this.props.closed && this.props.closingAt) {
       closingAt = (
-        <div className="alert alert-success" role="alert">
+        <div className="" role="alert">
         <span className={ this.props.closed ? 'icon-lock' : 'icon-lock-open'} style={{marginRight: '5px'}}></span>
         <span>La consulta cierra </span>
           <Timeago className='' date={this.props.closingAt} />

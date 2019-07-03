@@ -1,3 +1,9 @@
+.sidebar-container 
+  color: #70599E
+  .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus
+    background-color: #476F50
+
+
 .forum-subtitle, .topic-subtitle
   font-weight: 300;
   margin-bottom: 0;
@@ -134,6 +140,12 @@
           cursor: pointer
           color: #333333
 
+.comments-admin
+  .btn.btn-primary.btn-sm
+    background-color: #5f916a
+    &:hover, &:focus
+      background-color: #476f50
+
 .general-stats-container
   // background-color: #fff;
   // border-radius: 6px;
@@ -144,11 +156,14 @@
   table.table
     margin:0;
     .badge-mark
-      background-color: #53599e;
+      background-color: black;
       color: #fff;
+      color: white;
       padding: 2px 5px;
       border-radius: 2px;
       font-size: 13px
+    .bg-primary 
+      background-color: #476F50 !important
     .bg-light
       background-color: #f3f3f3
 .info-comment
