@@ -88,9 +88,11 @@ class HomeMultiForum extends Component {
       <div className='ext-site-home-multiforum'>
         <section
           className='cover jumbotron'
-          style={{
-            backgroundImage: `url('/ext/lib/site/home-multiforum/header-photo.jpg')`
-          }}>
+          // style={{
+          //   backgroundImage: `url('/ext/lib/site/home-multiforum/header_photo2.jpg')`,
+ 
+          // }}>
+          >
           <div className='jumbotron_body'>
             <div className='container'>
               <img
@@ -124,31 +126,37 @@ class HomeMultiForum extends Component {
         <div className='section-icons col-md-10 offset-md-1'>
           <div className='row'>
             <div className='section-icon col-md-4'>
-              <img
-                className='icon'
-                src='/ext/lib/site/home-multiforum/boton-informate.jpg'
-                alt='Informate'
-              />
+              <div>
+                <img
+                  className='icon'
+                  src='/ext/lib/site/home-multiforum/boton-informate.jpg'
+                  alt='Informate'
+                />
+              </div>
               <div className='text'>
                 <h5>Informate</h5> sobre las consultas disponibles
               </div>
             </div>
             <div className='section-icon col-md-4'>
-             <img
-                className='icon'
-                src='/ext/lib/site/home-multiforum/boton-vota.jpg'
-                alt='Participá'
-              />
+              <div>
+                <img
+                    className='icon'
+                    src='/ext/lib/site/home-multiforum/boton-vota.jpg'
+                    alt='Participá'
+                  />
+              </div>
               <div className='text'>
                 <h5>Votá</h5> en los ejes de las consultas
               </div>
             </div>
             <div className='section-icon col-md-4'>
-             <img
-                className='icon'
-                src='/ext/lib/site/home-multiforum/boton-participa.jpg'
-                alt='Compartí'
-              />
+              <div>
+              <img
+                  className='icon'
+                  src='/ext/lib/site/home-multiforum/boton-participa.jpg'
+                  alt='Compartí'
+                />
+                </div>
               <div className='text'>
                 <h5>Participá</h5> con tu opinión. 
               </div>
