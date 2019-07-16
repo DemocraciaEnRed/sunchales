@@ -7,7 +7,7 @@ const overrides = {
   'templates.email.signature': 'Municipalidad de Sunchales',
 
   'templates.welcome-email.subject': 'Bienvenido a Sunchales Participa',
-  'templates.welcome-email.body': 'Para completar su registro haga <a href=\"{validateUrl}\">click aquí.</a>',
+  'templates.welcome-email.body': 'Para completar su registro haga <a href="{validateUrl}">click aquí.</a>',
   'templates.welcome-email.ps': 'Si no ha sido usted quien se registró, por favor ignore este correo electrónico.',
 
   'templates.comment-reply.subject': 'Alguien respondió tu comentario',
