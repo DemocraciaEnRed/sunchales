@@ -22,8 +22,8 @@ services:
       # - OIDC_CLIENT_ID=**************
       # - OIDC_CLIENT_SECRET=**************
       # - OIDC_CALLBACK=**************
-    links:
-      - mongo
+    # links:
+    #   - mongo
     ports:
       - 3000:3000
     volumes:
@@ -35,10 +35,10 @@ services:
       - ./dos-override/api-v2/db-api/comments/scopes.js:/usr/src/lib/api-v2/db-api/comments/scopes.js
     tty: true
 
-  mongo:
-    container_name: sunchales-mongo
-    image: mongo:3.2
-    ports:
-      - 27017:27017
-    volumes:
-      - ./tmp/db:/data/db
+  # mongo:
+  #   container_name: sunchales-mongo
+  #   image: mongo:3.2
+  #   ports:
+  #     - 27017:27017
+  #   volumes:
+  #     - ./tmp/db:/data/db
