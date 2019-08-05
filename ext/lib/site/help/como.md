@@ -15,7 +15,7 @@
 ### ¿Cómo crear un usuario? <a name="crear-usuario"></a>
 Hacer click en la opción “Ingresar”, ubicada en la parte superior derecha de la pantalla. Para registrarte, debes elegir la opción “registrarse”, completar tus datos y enviar el formulario. Luego, recibirás un mail en tu correo electrónico con un link para validar tu usuario. Una vez validado, podés participar.
 
-![Imagen](https://i.ibb.co/HThH520/Screenshot-12.png)
+![Imagen](/ext/lib/site/help/form-sunch.png)
 
 ### ¿Cómo configurar tu perfil? <a name="configurar-perfil"></a>
 Una vez registrada/o, en la parte superior derecha de la pantalla aparecerá tu nombre de usuario. Con un click sobre tu nombre, aparecerá un menú desplegable.
@@ -28,7 +28,7 @@ En **"Configuración",** en caso que quieras, podés definir tus datos personale
 En Consulta Pública se tratan temas e iniciativas, abiertas a las opiniones de la ciudadanía, con el objetivo de aumentar la participación y fortalecer la democracia. A estos temas e iniciativas las llamamos de “Consulta”.
 Las consultas se muestran por los filtros de “nuevas”, “relevantes” y “finalizadas”. La consulta está dividida en **ejes**, que comprenden distintos aspectos del tema abierto a debate. Se puede ingresar a los ejes directamente desde la pantalla principal.
 
-![Imagen](https://i.ibb.co/CwZdsLQ/Screenshot-14.png)
+![Imagen](/ext/lib/site/help/sunch-estructura.png)
 
 O elegir **“ver más información”**, donde hay una descripción y explicación de la consulta. Debajo, también figuran los  ejes disponibles.
 Cada **eje** está abierto para participar durante un periodo de tiempo desde la fecha de publicación.
@@ -39,7 +39,7 @@ Cada **eje** está abierto para participar durante un periodo de tiempo desde la
 
 Se puede participando realizando comentarios y aportes en el **foro de debate.** Dentro de cada eje publicado, existe un espacio para hacer comentarios sobre las temáticas y expresarse sobre la discusión abierta. Una vez finalizado el tiempo estipulado de la consulta, no se puede seguir participando.
 
-![Imagen](https://i.ibb.co/s5V5S26/Screenshot-16.png)
+![Imagen](/ext/lib/site/help/sunch-comments.png)
 
 También, se pueden **interactuar** con los comentarios de otras personas para debatir puntos de vista o aportar más información, contestando o valorando positiva o negativamente sus argumentos (con el “pulgar arriba” o “pulgar abajo”). Los comentarios se pueden ordenar de acuerdo a su “relevancia” o cronológicamente (“más recientes” o “más antiguos”).
 Además se puede participar votando. Cada eje tiene como posibilidad agregar una **acción específica.** Hay cinco tipos de acciones adicionales:
