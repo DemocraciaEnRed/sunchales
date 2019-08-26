@@ -98,24 +98,41 @@
 
 
 
-  .section-icons
+
+
+  .container-icons
+    display: flex
+    justify-content: space-evenly
     font-weight:600
     margin-top:20px
-    @media (max-width: 760px)
-      margin-left:6%
-    @media (max-width: 460px)
-      margin-left:10px
+    // @media (max-width: 760px)
+      // margin-left:6%
+    // @media (max-width: 460px)
+      // margin-left:10px
+
     .section-icon
-      display: inline-block
+      display: flex
+      flex-wrap: wrap
+      justify-content: center
+     // .container-img 
+       // width: 100%
+       // .icon
+         // width: 30%
+      .text-icon
+        margin-top: 10px
+        text-align: center
+        width: 100%
+  
       @media (max-width: 760px)
+      .section-icon 
+        margin: 10px
         display:flex
         flex-direction:column
-      width:30% !important
       .icon
         width:100px
-        float: left
-      .text
-        padding-left: 115px
+        //float: left
+      .text-icon
+        display:none
         @media (max-width: 760px)
           padding-left:10px
         padding-top: 10px

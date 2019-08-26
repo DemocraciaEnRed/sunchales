@@ -48,7 +48,7 @@ class HomeMultiForum extends Component {
           activeFilter: name
         })
       })
-      .catch(console.error)
+      .catch(err => console.error('este es el error', err))
   }
 
   handleMoreClick = () => {
@@ -123,47 +123,48 @@ class HomeMultiForum extends Component {
             Seguí estos pasos para participar y empezar a debatir
           </p>
         </div>
-        <div className='section-icons col-md-10 offset-md-1'>
-          <div className='row'>
-            <div className='section-icon col-md-4'>
-              <div>
+        <div className="container-icons">
+            <div className='section-icon'>
+              <div className='container-img'>
                 <img
                   className='icon'
                   src='/ext/lib/site/home-multiforum/boton-informate.jpg'
                   alt='Informate'
                 />
               </div>
-              <div className='text'>
-                <h5>Informate</h5> sobre las consultas disponibles
+              <div className='text-icon'>
+                {/* <h5>Informate</h5>  */}
+                sobre las consultas disponibles.
               </div>
             </div>
-            <div className='section-icon col-md-4'>
-              <div>
+            <div className='section-icon'>
+              <div className='container-img'>
                 <img
                     className='icon'
                     src='/ext/lib/site/home-multiforum/boton-vota.jpg'
                     alt='Participá'
                   />
               </div>
-              <div className='text'>
-                <h5>Votá</h5> en los ejes de las consultas
+              <div className='text-icon'>
+                {/* <h5>Votá</h5> */}
+                en los ejes de las consultas
               </div>
             </div>
-            <div className='section-icon col-md-4'>
-              <div>
+            <div className='section-icon'>
+              <div className='container-img'>
               <img
                   className='icon'
                   src='/ext/lib/site/home-multiforum/boton-participa.jpg'
                   alt='Compartí'
                 />
                 </div>
-              <div className='text'>
-                <h5>Participá</h5> con tu opinión. 
+              <div className='text-icon'>
+                {/* <h5>Participá</h5>   */}
+                con tu opinión.
               </div>
+         
             </div>
-          </div>
         </div>
-
         <div className='lead-paragraph last col-md-4 offset-md-4 col-xs-12'>
           <i className='icon-arrow-down' onClick={this.handleButtonClick} />
         </div>

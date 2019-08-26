@@ -7,6 +7,8 @@ import AnonUser from 'lib/header/anon-user/component'
 import userConnector from 'lib/site/connectors/user'
 import config from 'lib/config'
 
+
+
 class Header extends Component {
   constructor (props) {
     super(props)
@@ -83,7 +85,8 @@ class Header extends Component {
               </Link>
             </div>
 
-            {this.props.user.state.fulfilled && (
+            {/* --- Notifications are not available for now --- */}
+           {/*  {this.props.user.state.fulfilled && (
               <div className='header-item notifications-link'>
                 <Link
                   to='/notificaciones'
@@ -91,7 +94,7 @@ class Header extends Component {
                   <span className='icon-bell' />
                 </Link>
               </div>
-            )}
+            )} */}
 
             {this.props.user.state.fulfilled && (
               <UserBadge />
