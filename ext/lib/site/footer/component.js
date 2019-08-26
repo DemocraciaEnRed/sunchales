@@ -15,7 +15,7 @@ export default class Footer extends Component {
               </a>
             </div>
             <p className='text-muted small'>
-              Los contenidos de Argentina.gob.ar están licenciados bajo <a href='https://creativecommons.org/licenses/by/2.5/ar/'>Creative Commons Reconocimiento 2.5 Argentina License</a>
+            Esta plataforma es una adaptación de <a target="_blank" href="https://www.argentina.gob.ar/">Argentina.gob.ar</a> bajo la licencia de <a href='https://creativecommons.org/licenses/by/2.5/ar/'>Creative Commons Reconocimiento 2.5 Argentina License</a>
             </p>
           </div>
             <nav className='menu'>
