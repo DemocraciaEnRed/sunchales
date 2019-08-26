@@ -31,7 +31,7 @@ export default class Carrusel extends Component {
   componentDidUpdate () {
     if (this.flkty) this.flkty.destroy()
     const options = {
-      //cellAlign: 'left',
+      cellAlign: 'center',
       draggable: false,
       // friction: 0.2,
       contain: true,
@@ -39,6 +39,7 @@ export default class Carrusel extends Component {
       groupCells: window.matchMedia('(min-width: 1024px)').matches ? 3 : 1
     }
     this.flkty = new Flickity(this.refs.carrusel, options)
+
   }
 
   componentWillUnmount () {
