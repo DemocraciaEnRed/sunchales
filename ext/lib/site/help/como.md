@@ -1,9 +1,6 @@
-# ¿Cómo Funciona?
+# Preguntas Frecuentes
 
 
-
-
-### Manual de usuario
 
 * [¿Cómo crear un usuario?](#crear-usuario)
 * [¿Cómo configurar tu perfil?](#configurar-perfil)

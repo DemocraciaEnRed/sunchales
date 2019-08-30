@@ -24,4 +24,4 @@ ENV LOCALE=es \
   SOCIALSHARE_IMAGE=https://cldup.com/Y7mWiU4D1Q.png \
   SOCIALSHARE_DOMAIN=sunchales.gob.ar/participa \
   SOCIALSHARE_TWITTER_USERNAME=@munisunchales \
-  TWEET_TEXT='Estoy tratando de mejorar esta propuesta “{topic.mediaTitle}” ¡Construyamos un mejor Sunchales para todos y todas!'
+  TWEET_TEXT='Participá en “{topic.mediaTitle}” ¡Construyamos un mejor Sunchales para todas y todos!'

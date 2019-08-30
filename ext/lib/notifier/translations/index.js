@@ -2,15 +2,17 @@ const translations = require('democracyos-notifier/lib/translations')
 
 const t = translations.t
 
+console.log(translations)
+
 const overrides = {
-  'templates.email.greeting': 'Estimado/a, {userName}',
+  'templates.email.greeting': 'Hola {userName}, iniciaste el proceso de registro para participar en Sunchales Participa',
   'templates.email.signature': 'Municipalidad de Sunchales',
 
-  'templates.welcome-email.subject': 'Bienvenido a Sunchales Participa',
-  'templates.welcome-email.body': 'Para completar su registro haga <a href="{validateUrl}">click aquí.</a>',
-  'templates.welcome-email.ps': 'Si no ha sido usted quien se registró, por favor ignore este correo electrónico.',
+  'templates.welcome-email.subject': 'Bienvenida/o a Sunchales Participa',
+  'templates.welcome-email.body': 'Para finalizarlo, hacé <a href="{validateUrl}">click acá.</a>',
+  'templates.welcome-email.ps': 'En caso de no haberte registrado, por favor ignorá este mensaje.',
 
-  'templates.comment-reply.subject': 'Alguien respondió tu comentario',
+  'templates.comment-reply.subject': 'Alguien respondió a tu comentario',
   'templates.comment-reply.body': 'Tienes una nueva respuesta a tu comentario.',
   'templates.comment-reply.body2': 'Por favor <a href=\"{url}\">cliquea aquí</a> para verla.',
 

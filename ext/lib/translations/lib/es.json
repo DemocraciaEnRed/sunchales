@@ -59,5 +59,10 @@
   "comments.your.arguments": "Tus comentarios",
   "proposal-options.must-be-signed-in": "Debés estar registrado para participar",
   "forum.form.rich.summary.label": "Resumen largo",
-  "forum.form.contentType.label": "Tipo de contenido"
+  "forum.form.contentType.label": "Tipo de contenido",
+  "signup.check-email": "Por favor, no te olvides de revisar el Correo no Deseado.",
+  "signup.now-can-vote": "¡Ya podés participar para construir un mejor Sunchales entre todas y todos!",
+  "signup.received": "Te enviamos un correo electrónico para que puedas validar tu registro. ",
+  "signup.resend-validation-email": "¿No lo recibiste? Reenviar correo de validación.",
+  "signup.welcome": "¡Bienvenida/o, {name}!"
 }
