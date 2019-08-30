@@ -2,7 +2,6 @@ const translations = require('democracyos-notifier/lib/translations')
 
 const t = translations.t
 
-console.log(translations)
 
 const overrides = {
   'templates.email.greeting': 'Hola {userName}, iniciaste el proceso de registro para participar en Sunchales Participa',
