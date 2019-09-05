@@ -165,7 +165,7 @@ class HomeMultiForum extends Component {
          
             </div>
         </div>
-        <div className='lead-paragraph last col-md-4 offset-md-4 col-xs-12'>
+        <div className='lead-paragraph last'>
           <i className='icon-arrow-down' onClick={this.handleButtonClick} />
         </div>
 
