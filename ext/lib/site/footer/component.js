@@ -4,6 +4,14 @@ import t from 't-component'
 
 export default class Footer extends Component {
 
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
+
+  componentDidUpdate() {
+    window.scrollTo(0,0);
+  }
+
   render () {
     return (
       <footer className='ext-footer'>

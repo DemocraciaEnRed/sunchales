@@ -6,9 +6,16 @@ import Sidebar from 'ext/lib/site/help/sidebar/component'
 import MarkdownGuide from 'lib/site/help/md-guide/component'
 import * as articles from './articles'
 import Stats from './stats/component'
-
-
 export default class HelpLayout extends PureComponent {
+
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
+
+  componentDidUpdate() {
+    window.scrollTo(0,0);
+  }
+
   articles = [
     {
       title: '¿Cómo funciona?',
