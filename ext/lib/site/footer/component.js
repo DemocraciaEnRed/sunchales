@@ -23,7 +23,7 @@ export default class Footer extends Component {
               </a>
             </div>
             <p className='text-muted small'>
-            Esta plataforma es una adaptación de <a target="_blank" href="https://www.argentina.gob.ar/">Argentina.gob.ar</a> bajo la licencia de <a href='https://creativecommons.org/licenses/by/2.5/ar/'>Creative Commons Reconocimiento 2.5 Argentina License</a>
+            Esta plataforma es una adaptación de <a target="_blank" href="http://democracyos.org/">DemocracyOS</a>, plataforma de código abierto, licenciada bajo <a href='https://creativecommons.org/licenses/by/2.5/ar/'>Creative Commons Reconocimiento 2.5 Argentina License</a>
             </p>
           </div>
             <nav className='menu'>
