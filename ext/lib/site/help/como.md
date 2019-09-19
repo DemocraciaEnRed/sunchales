@@ -19,7 +19,7 @@ Una vez registrada/o, en la parte superior derecha de la pantalla aparecerá tu 
 
 ![Imagen](https://i.ibb.co/pf3Lc8M/Screenshot-13.png)
 
-En **"Configuración",** en caso que quieras, podés definir tus datos personales (nombre, apellido) y cambiar la foto de perfil pegando la URL de una imagen tuya. La forma más sencilla de hacerlo es ir a cualquier de tus redes sociales y en la foto que quieras, hacer click derecho y seleccionar “copiar URL de la imagen”. Otra forma de hacerlo es subir alguna imagen a un servidor (como por ejemplo [https://es.imgbb.com/](https://es.imgbb.com/) ) y hacer el mismo proceso. Además, se puede cambiar la contraseña y determinar las preferencias de las notificaciones (recibirás un mail cuando responden a un comentario o cuando se creen nuevas consultas).
+En **"Configuración",** en caso que quieras, podés definir tus datos personales (nombre, apellido) y cambiar la foto de perfil pegando la URL de una imagen tuya. La forma más sencilla de hacerlo es ir a cualquier de tus redes sociales y en la foto que quieras, hacer click derecho y seleccionar “copiar URL de la imagen”. Otra forma de hacerlo es subir alguna imagen a un servidor (como por ejemplo <a target="_blank" href="https://es.imgbb.com/">https://es.imgbb.com/</a> ) y hacer el mismo proceso. Además, se puede cambiar la contraseña y determinar las preferencias de las notificaciones (recibirás un mail cuando responden a un comentario o cuando se creen nuevas consultas).
 
 ### ¿Cómo está estructurado el sitio? <a name="estructura-del-sitio"></a>
 En Consulta Pública se tratan temas e iniciativas, abiertas a las opiniones de la ciudadanía, con el objetivo de aumentar la participación y fortalecer la democracia. A estos temas e iniciativas las llamamos de “Consulta”.
