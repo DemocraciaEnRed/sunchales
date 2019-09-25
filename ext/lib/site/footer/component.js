@@ -22,9 +22,9 @@ export default class Footer extends Component {
                 <img src='/ext/lib/site/footer/logo-sunchales.png' />
               </a>
             </div>
-            <p className='text-muted small'>
+           {/*  <p className='text-muted small'>
             Esta plataforma es una adaptación de <a target="_blank" href="http://democracyos.org/">DemocracyOS</a>, plataforma de código abierto, licenciada bajo <a href='https://creativecommons.org/licenses/by/2.5/ar/'>Creative Commons Reconocimiento 2.5 Argentina License</a>
-            </p>
+            </p> */}
           </div>
             <nav className='menu'>
               <Link to='/ayuda/como-funciona'>¿Cómo funciona?</Link>
