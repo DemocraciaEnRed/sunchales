@@ -5,7 +5,7 @@ import bus from 'bus'
 import config from 'lib/config'
 import FormAsync from 'lib/site/form-async'
 import userConnector from 'lib/site/connectors/user'
-import BtnMiargentina from './btn-miargentina'
+// import BtnMiargentina from './btn-miargentina'
 
 export class SignIn extends Component {
   constructor (props) {
