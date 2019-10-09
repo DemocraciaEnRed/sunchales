@@ -12,8 +12,8 @@ import TopicLayoutExt from 'ext/lib/site/topic-layout/component'
 import * as Help from 'lib/site/help/component'
 import HelpExt from 'ext/lib/site/help/component'
 
-import * as SignIn from 'lib/site/sign-in/component'
-import SignInExt from 'ext/lib/site/sign-in/component'
+// import * as SignIn from 'lib/site/sign-in/component'
+// import SignInExt from 'ext/lib/site/sign-in/component'
 
 import * as Resend from 'lib/site/resend/component'
 import ResendExt from 'ext/lib/site/resend/component'
@@ -26,6 +26,6 @@ HomeForum.default = HomeForumExt
 HomeMultiForum.default = HomeMultiForumExt
 TopicLayout.default = TopicLayoutExt
 Help.default = HelpExt
-SignIn.default = SignInExt
+// SignIn.default = SignInExt
 Resend.default = ResendExt
 Reset.default = ResetExt
